@@ -1,6 +1,8 @@
 Stable Diffusion API to OpenAI API
 ---------------
 
+[English](https://github.com/shulinbao/stable-diffusion-api-to-openai/blob/main/README_en.md)
+
 这个项目可以把 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 格式的图片生成 API `/sdapi/v1/txt2img` 转发为 OpenAI 的通用 API 格式 `/v1/images/generations`，并转发为 dall-e-3 等指定模型。
 
 使用这个项目，您首先需要有一个 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 的服务端。
