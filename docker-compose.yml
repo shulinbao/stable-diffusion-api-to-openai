@@ -1,0 +1,12 @@
+services:
+  server:
+    build:
+      context: .
+    tty: true
+    environment:
+      - SD_BASE_URL=http://stable-diffusion-webui:3001      # Please change it to your sdwebui url
+    volumes:
+      - ./config:/app/config
+    ports:
+      - 5005:5005          # You could change it
+    command: ["python", "images.py", "--host", "0.0.0.0", "--port", "5005"]
