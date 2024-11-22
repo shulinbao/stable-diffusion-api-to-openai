@@ -57,7 +57,7 @@ git clone https://github.com/shulinbao/stable-diffusion-api-to-openai
 cd stable-diffusion-api-to-openai
 ```
 
-在部署之前，请记得修改 `` 文件的以下内容（参见注释）
+在部署之前，请记得修改 `/relay/relay-image.go` 文件的以下内容（参见注释）
 
 ```
 services:
