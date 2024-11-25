@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="stable-diffusion-api-to-openai.jpg" alt="Project Logo" width="200">
+</p>
+
 Stable Diffusion API to OpenAI API
 ---------------
 
